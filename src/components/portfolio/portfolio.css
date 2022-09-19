@@ -5,7 +5,10 @@
 }
 .card {
   border: none;
+  height: 25vh;
   background-color: rgba(149, 139, 139, 0.293) !important;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.744);
+
 }
 .card:nth-child(odd) {
   background-color: rgba(149, 139, 139, 0.918) !important;

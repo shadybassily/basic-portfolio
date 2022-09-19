@@ -7,28 +7,28 @@ export default class Portfolio extends Component {
     this.state = {
       projects: [
         {
-          name: "Todo-App",
-          details: "A simple todo app that create, delete & edit tasks",
+          name: "project 1",
+          details: "project details",
         },
         {
-          name: "Calculator",
-          details: "A calculator that accomplish basic operations",
+          name: "project 2",
+          details: "project details",
         },
         {
-          name: "Todo-App",
-          details: "A simple todo app that create, delete & edit tasks",
+          name: "project 3",
+          details: "project details",
         },
         {
-          name: "Calculator",
-          details: "A calculator that accomplish basic operations",
+          name: "project 4",
+          details: "project details",
         },
         {
-          name: "Todo-App",
-          details: "A simple todo app that create, delete & edit tasks",
+          name: "project 5",
+          details: "project details",
         },
         {
-          name: "Calculator",
-          details: "A calculator that accomplish basic operations",
+          name: "project 6",
+          details: "project details",
         },
       ],
     };
