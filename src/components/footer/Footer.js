@@ -2,8 +2,12 @@ import React from "react";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF,faLinkedin,faTwitter,faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import {
+  faFacebookF,
+  faLinkedin,
+  faTwitter,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   const email = <FontAwesomeIcon icon={faEnvelope} />;
@@ -15,21 +19,21 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="col-sm-12 col-lg-3 text-center contact-info left">
+      <div className="col-sm-12 col-lg-2 contact-info left">
         GET IN TOUCH
         <div>
-          <p >{email} example@gmail.com</p>
+          <p>{email} example@gmail.com</p>
           <p>{phone} +02 012-345-6789</p>
         </div>
       </div>
 
-      <div className="text-center col-sm-3 col-lg-2  py-5 center">
+      <div className="text-center col-sm-3 col-lg-2 py-5 center">
         <a href="mailto:shadybassily@yahoo.com" className="contact-me">
           Contact me
         </a>
       </div>
 
-      <div className="col-3 text-center right col-sm-12 col-lg-3 ">
+      <div className="col-3 text-center right col-sm-12 col-lg-2">
         <div className="icons-container">
           <a href="#">{facebook} </a>
           <a href="#">{linkedIn}</a>
