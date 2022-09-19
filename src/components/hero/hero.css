@@ -1,0 +1,37 @@
+
+.info {
+  --primary: rgba(255, 255, 255, 0.867);
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  color: var(--primary);
+  text-transform: capitalize;
+}
+
+.info .my-name {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  transform: scaleY(1.2) !important;
+}
+.info .title{
+  letter-spacing: 1px;
+}
+
+.info a {
+  all: unset;
+  display: block;
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: all 0.3s;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.info a:hover {
+  background-color: var(--primary);
+  color: black;
+}
+
+

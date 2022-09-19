@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-container .about{
+    font-family: "Playfair Display", serif;
+}
+
+.about-container a{
+    all: unset;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.868);
+    width: fit-content;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.about-container a:hover{
+    background-color: black;
+}

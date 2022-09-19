@@ -1,0 +1,35 @@
+h2 {
+  font-family: "Playfair Display", serif;
+  transform: scaleY(1.1);
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+ul li {
+  padding: 3px;
+}
+
+
+/* !progress bar */
+
+.progress-bar{
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+}
+
+.skill{
+  background-color: rgba(149, 139, 139, 0.918);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-progress{
+  background-color: white;
+  background-image: linear-gradient(rgba(149, 139, 139, 0.665), rgba(160, 155, 155, 0.501));
+  background-repeat: no-repeat;
+}

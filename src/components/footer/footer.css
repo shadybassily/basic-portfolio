@@ -1,0 +1,55 @@
+
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.823);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+ .left, .center, .right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+
+.contact-me{
+    all: unset;
+    border: 1px solid white;
+    display: block;
+    padding: 5px 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contact-me:hover{
+    background-color: rgba(255, 255, 255, 0.659);
+    color: black;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.icons-container a {
+    all: unset;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.709);
+    transition: 0.2s;
+
+}
+.icons-container a:hover{
+    color: #fff;
+}
